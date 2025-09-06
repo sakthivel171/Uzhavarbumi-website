@@ -28,7 +28,8 @@
               {{ link.name }}
               <sup v-if="link.isNew" class="bg-green-500 inline-block  px-1 py-[0.20em] text-[65%] font-bold leading-none text-center whitespace-nowrap  rounded">NEW</sup>
             </router-link>
-          </li>
+          </li> 
+
         </ul>
       </div>
 
@@ -37,7 +38,7 @@
         <h2 class="text-2xl font-montserrat">Know our Milk</h2>
         <hr class="my-4 border-0 border-t border-gray-300 ">
         <ul class="leading-8">
-          <li v-for="link in milkLinks" :key="link.name">
+          <li v-for="link in milkLinks" :key="link.name" class="hover:text-gray-400">
             <router-link :to="link.path">{{ link.name }}</router-link>
           </li>
         </ul>
@@ -48,16 +49,16 @@
         <h2 class="text-2xl font-montserrat">Connect With Us</h2>
         <hr class="my-4 border-0 border-t border-gray-300 ">
         <div class="flex gap-4 mt-2 " >
-                <a href=""><img src="/whatsapp logo.jpg" alt=""  class="rounded-xl "></a>
-                <a href=""><img src="/facebook logo.jpg" alt="" class="rounded-xl "></a>
-                <a href=""><img src="/twitter logo.jpg" alt="" class="rounded-xl "></a>
-                <a href=""><img src="/linked logo.jpg" alt="" class="rounded-xl "></a>
-                <a href=""><img src="/instagram logo.jpg" alt="" class="rounded-xl "></a>
-              <a href=""><img src="/youtube logo.jpg" alt="" class="rounded-xl "></a>
+                <a href="https://api.whatsapp.com/send?phone=918939989887&text=Hi,%20Uzhavarbumi" target="_blank"><img src="/whatsapp logo.jpg" alt=""  class="rounded-xl "></a>
+                <a href="https://www.facebook.com/Uzhavarbumi" target="_blank"><img src="/facebook logo.jpg" alt="" class="rounded-xl "></a>
+                <a href="https://twitter.com/Uzhavarbumi"target="-blank " ><img src="/twitter logo.jpg" alt="" class="rounded-xl "></a>
+                <a href="https://www.linkedin.com/company/uzhavarbumi/" target="_blank"><img src="/linked logo.jpg" alt="" class="rounded-xl "></a>
+                <a href="https://www.instagram.com/uzhavarbumi/" target="_blank"><img src="/instagram logo.jpg" alt="" class="rounded-xl "></a>
+              <a href="https://www.youtube.com/c/Uzhavarbumi" target=_blank><img src="/youtube logo.jpg" alt="" class="rounded-xl "></a>
         </div>
         <div class="flex gap-8 mt-8 ">
-            <a href=""><img src="\playstore logo.jpg" alt="" class="rounded-xl"></a>
-            <a href=""><img src="/ios appstor.jpg" alt=""class="rounded-xl" ></a>
+            <a href="https://play.google.com/store/apps/details?id=com.uzhavarbumi.app" target="_blank"><img src="\playstore logo.jpg" alt="Uzhavarbumi.com" class="rounded-xl"></a>
+            <a href="https://apps.apple.com/in/app/1668103339" target="_blank"><img src="/ios appstor.jpg" alt="Ulavarbumi"class="rounded-xl" ></a>
         </div>
       </div>
     </div>

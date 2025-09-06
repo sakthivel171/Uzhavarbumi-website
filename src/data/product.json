@@ -1,0 +1,26 @@
+[
+    {
+    "name": "Pure Cow Milk",
+    "image": "https://uzhavarbumi.com/images/products/milk.png",
+    "content":"UB delivers you hygienic, chemical free milk, freshly collected from local farmers.",  
+    "link": "https://uzhavarbumi.com/our-products/pure-cow-milk"
+  },
+    {
+    "name": "Pure Cow Ghee",
+    "image": "https://uzhavarbumi.com/images/products/ghee.jpg",  
+    "content":"UB's ghee / clarified butter is traditionally made from pure cow milk.",
+    "link": "https://uzhavarbumi.com/our-products/pure-cow-ghee"
+  },
+    {
+    "name": "Natural Honey",
+    "image": "https://uzhavarbumi.com/images/products/honey.jpg",  
+     "content":"UB's honey is unprocessed, unsweetened and freshly collected from a local farm.",
+    "link": "https://uzhavarbumi.com/our-products/natural-honey"
+  },
+    {
+    "name": "Free Range Eggs",
+    "image": "https://uzhavarbumi.com/images/products/eggs.jpg", 
+     "content":"India's First Certified 'Free-Range' Eggs. Omega 3 enriched eggs from HappyHens.", 
+    "link": "https://uzhavarbumi.com/our-products/free-range-eggs"
+  }
+]

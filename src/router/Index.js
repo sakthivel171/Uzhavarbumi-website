@@ -20,9 +20,10 @@ import Refund from "../pages/Terms/Refund.vue"
 
 import Meter from "../pages/Meter.vue"
 import Program from "../pages/customer/Program.vue"
-import Policies from "../pages/customer/Policies.vue"
+import Policies from "../pages/customer/cusomerPolicies.vue"
 import refer from "../pages/customer/refer.vue"
 import Referral from "../pages/customer/Referral.vue"
+import Areas from "../pages/Milk/Areas.vue"
 
 const routes= [
     {path:"/",component:Home},
@@ -43,10 +44,11 @@ const routes= [
     {path:'/delivery',component:Delivery},
     {path:"/privacy",component:Privacy},
     {path:'/refund',component:Refund},
-    {path:"/customer",component:Program},
+    {path:"/Program",component:Program},
     {path:"/policies",component:Policies},
     {path:"/refer",component:refer},
     {path:"/referral",component:Referral},
+    {path:"/areas",component:Areas}
 
 ]
 
@@ -54,5 +56,18 @@ const routes= [
 
 export default createRouter({
     history:createWebHistory(),
-    routes
+    routes,
+    scrollBehavior(top,from,savedPosition){
+        if(savedPosition){
+            return savedPosition;
+        }else{
+            return{
+
+                top:0,
+               
+            }
+        }
+    }
+   
+    
 })

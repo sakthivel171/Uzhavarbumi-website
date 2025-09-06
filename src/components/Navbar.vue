@@ -12,7 +12,7 @@
                  <span class="absolute left-0 -bottom-2 h-[3px] w-0 bg-lime-500 transition-all duration-700 group-hover:w-full"></span>
             </Navlink>
         </div>
-<div class="pr-12">
+<div class="pr-20">
     <logo  />
     
 </div>

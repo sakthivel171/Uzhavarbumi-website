@@ -8,8 +8,8 @@
             <h4 class="fot-lato text-2xl mt-6">UB's Vision</h4>
             <p class="font-lato text-[16px] tracking-wide  text-gray-500 mt-4">Uzhavarbumi's fundamental vision is to deliver natural and farm-fresh dairy products and to create a direct link between local small-scale farmers and consumers. It aims to drive away commercialization and to provide sustainable products at an affordable price with no-added preservatives. UB endeavors to become an esteemed and trusted sustainable products distributor.</p>
         </div>
-        <h4 class="fot-lato text-2xl mt-3">UB's Team</h4>
-        <div class="flex sm:flex-wrap lg:flex-nowrap justify-center gap-4 lg:gap-16 lg:px-12 text-center text-gray-500 mb-10 mt-4">
+        <h4 class="font-lato text-2xl mt-3">UB's Team</h4>
+        <div class="flex flex-wrap lg:flex-nowrap justify-center gap-4 lg:gap-16 lg:px-12 text-center text-gray-500 mb-10 mt-4">
             <div>
                 <div><img src="../assets/vetri.png" alt="" class="h-44 w-44"></div>
                 <p class="font-lato text-lg font-bold mt-6">Mr.Vetrivel Palani</p>
@@ -48,7 +48,7 @@
         
           <h4 class="fot-lato text-2xl mt-3  text-black">UB's Statistics</h4>
             <p >Uzhavarbumi is a fast growing dairy products company among hundreds of other companies belonging to the dairy sector. UB has become one of Chennai's leading brands in a short amount of time. UB initially began by supplying only 30 litres of milk daily and in 2019 it increased to 1,500 litres of milk daily, today we serve over 10,000+ customers. These are UB's major highlights:</p>
-         <ul class="list-disc pl-5 text-gray-700">
+         <ul class="list-disc pl-5 text-gray-800">
             <li>Over 10,000 Customers are served daily</li>
             <li>Over 7,000 Liters of milk procured every day</li>
             <li>Over 2,500 Dairy Farmers benefited</li>
@@ -70,7 +70,7 @@
 
          
          <h4 class="fot-lato text-2xl mt-3  text-black">UB's Awards</h4>
-          <ul class="list-disc pl-5 text-gray-700">
+          <ul class="list-disc pl-5 text-gray-800">
             <li>Best Agro Food Supplier 2021 Award from “Rotary Start-up Awards</li>
             <li>Agri Entrepreneur, Vivasaya Virudhukal from Sree Sankara TV</li>
             <li>Life changer award by Save Farmers NGO, Chennai.</li>
