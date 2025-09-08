@@ -30,7 +30,7 @@
                 <p class="font-lato text-[16px] tracking-wide    text-gray-500 mt-4">Our employees are the pillars of our brand & here's how we take care of their wellbeing!</p>
             </div>
 
-            <div class="grid  lg:grid-cols-3 px-6 md:px-24 lg:px-48 mx-auto gap-14 my-10 ">
+            <div class="grid  lg:grid-cols-3 px-6 md:px-24 xl:px-48 mx-auto gap-14 my-10 ">
                 <div>
                     <img src="https://uzhavarbumi.com/images/careers/balance-scale.png" alt="work culture" class="w-11 h-11">
                     <h4 class=" font-montserrat font-medium text-2xl my-4">Work Culture</h4>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <h4 class=" font-lato font-medium text-3xl mb-10 tracking-widest text-center">Current Openings</h4>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 md:px-24 lg:px-48 mx-auto mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 md:px-24 xl:px-48 mx-auto mb-10">
             <div v-for="(job,index) in jobs" :key="index"
             class="p-4 border border-gray-300 rounded shadow-sm py-6">
                     <h1 class=" font-montserrat font-medium text-xl ">{{ job.role }}</h1>

@@ -1,11 +1,11 @@
 <template>
     <h1  class="text-4xl font-montserrat font-medium mb-8  text-center mt-14">Frequently Asked Questions</h1>
-  <section class="max-w-4xl mx-auto py-10 px-4 mb-20">
+  <section class="lg:max-w-5xl mx-auto py-10 px-4 mb-20">
     <!-- Navigation -->
-  <nav class="flex gap-6 mb-4 lg:w-[1100px]">
+  <nav class="flex gap-6 mb-4 ">
     <button  ><ion-icon name="chevron-back-outline"class="text-[#76A543] text-2xl"></ion-icon></button>
     
-    <div class="flex gap-6">
+    <div class="flex  overflow-x-auto  whitespace-nowrap  gap-6">
       <button 
       v-for="(head,index) in heads"
       :key="index"
@@ -32,11 +32,7 @@
     <div v-if="activeIndex===index" 
     class="px-4 py-3 bg-white ">
     {{ faq.answer }}
-
-    
-
     </div>
-
   </div>
 
    

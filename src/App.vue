@@ -1,23 +1,33 @@
 <template>
-  <div class="box-border ">
-    <Navbar/>
-    <main class="flex-1">
-      <router-view/>
-    </main>
-   <Footer></Footer>
-      
-  </div>
+  <whatsapp class="whatsapp-icon" />  
+  <Navbar/>
+  <main>
+    <router-view/>
+  </main>
+  <Footer/>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
-export default{
-  name:"app",
-  components:{
-    Navbar,Footer
+import whatsapp from './components/whatsapp.vue';
+
+export default {
+  name: "App",
+  components: {
+    Navbar,
+    Footer,
+    whatsapp
   }
 }
 </script>
 
-
+<style>
+.whatsapp-icon {
+  position: fixed;
+  right: 20px;      
+  top: 87%;          
+  z-index: 1000;     
+  cursor: pointer;
+}
+</style>

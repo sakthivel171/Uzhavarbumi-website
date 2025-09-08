@@ -1,9 +1,10 @@
 import {createRouter,createWebHistory} from "vue-router"
 import Home from "../pages/Home.vue"
+import Samplemilk from "../pages/Milk/Samplemilk.vue"
 import About from "../pages/About.vue"
 import Contact from "../pages/Contact.vue"
 import Products from "../pages/Products.vue"
-import Ques from "../pages/Ques.vue"
+import Ques from "../pages/Question.vue"
 import Recipes from "../pages/Recipes.vue"
 import Blog from "../pages/media/Blog.vue"
 import ourPage from  "../pages/media/ourPage.vue"
@@ -48,7 +49,8 @@ const routes= [
     {path:"/policies",component:Policies},
     {path:"/refer",component:refer},
     {path:"/referral",component:Referral},
-    {path:"/areas",component:Areas}
+    {path:"/areas",component:Areas},
+    {path:"/sample",component:Samplemilk}
 
 ]
 
